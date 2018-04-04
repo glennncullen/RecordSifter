@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    RecordSifter (0.1.0)
+    RecordSifter (1.1.0)
 
 GEM
   remote: https://rubygems.org/
