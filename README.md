@@ -19,7 +19,31 @@ Or install it yourself as:
 
 ## Usage
 
-Call method
+Methods:
+
+    sift_record_single_condition
+params: 
+
+record = ActiveRecord to be sifted through  
+column_name = name of column in ActiveRecord to be compared
+match = record to be compared against
+
+    sift_record_double_conditional
+params:
+
+record = ActiveRecord to be sifted through   
+col1 = name of first column in ActiveRecord to be compared  
+col2 =  name of second column in ActiveRecord to be compared
+match1 = record to be compared against col1 
+match2 = record to be compared against col2
+
+    sift_record_single_conditional_future_query
+params:
+
+record = ActiveRecord to be sifted through  
+column_name = name of column in ActiveRecord to be compared
+match = record to be compared against
+future_col = column_name to detemine whether return is in the future
 
 ## Development
 
